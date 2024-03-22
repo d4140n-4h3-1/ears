@@ -1,5 +1,7 @@
 # ears [![Build Status](https://travis-ci.org/nickbrowne/ears.svg?branch=master)](https://travis-ci.org/nickbrowne/ears) [![Build status](https://ci.appveyor.com/api/projects/status/0dhp10u9y2ivrieo/branch/master?svg=true)](https://ci.appveyor.com/project/nickbrowne/ears/branch/master) [![](http://meritbadge.herokuapp.com/ears)](https://crates.io/crates/ears)
 
+* NOTICE: As far as I can see, Ears has not been updated since April 1st, 2020. I don't plan to add any new features anytime soon, but in the meantime, I will make sure there is no deprecated code. - d4140n-4h3-1
+
 Ears aims to be a convenient and easy to understand Rust interface over OpenAL.
 
 It's designed first and foremost for game development, giving you easy access to
