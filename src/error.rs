@@ -1,5 +1,5 @@
-use openal::al;
-use sndfile::SndFileError;
+use crate::openal::al;
+use crate::sndfile::SndFileError;
 use std::error::Error;
 use std::fmt;
 

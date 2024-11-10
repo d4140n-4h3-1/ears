@@ -1,6 +1,6 @@
-use internal::OpenAlData;
-use openal::{al, ffi};
-use presets::ReverbProperties;
+use crate::internal::OpenAlData;
+use crate::openal::{al, ffi};
+use crate::presets::ReverbProperties;
 use std::error::Error;
 use std::fmt;
 

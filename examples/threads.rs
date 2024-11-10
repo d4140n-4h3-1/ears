@@ -4,7 +4,7 @@ use std::thread;
 
 fn main() {
     let mut handles = Vec::new();
-    for _ in 0..10 {
+    for _ in 0..4 {
         let handle = thread::spawn(move || {
             let mut snd = Sound::new("res/shots.ogg").unwrap();
             snd.play();

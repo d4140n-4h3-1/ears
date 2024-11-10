@@ -21,8 +21,8 @@
 
 //! The tags extracted from an audio file.
 
-use sndfile::SndFile;
-use sndfile::StringSoundType::{
+use crate::sndfile::SndFile;
+use crate::sndfile::StringSoundType::{
     Album, Artist, Comment, Copyright, Date, Genre, License, Software, Title, TrackNumber,
 };
 

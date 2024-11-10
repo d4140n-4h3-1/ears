@@ -25,16 +25,16 @@ use std::cell::RefCell;
 use std::rc::Rc;
 use std::time::Duration;
 
-use audio_controller::AudioController;
-use audio_tags::{AudioTags, Tags};
-use error::SoundError;
-use internal::OpenAlData;
-use openal::{al, ffi};
-use reverb_effect::ReverbEffect;
-use sound_data; //::*;//{SoundData};
-use sound_data::SoundData;
-use states::State;
-use states::State::{Initial, Paused, Playing, Stopped};
+use crate::audio_controller::AudioController;
+use crate::audio_tags::{AudioTags, Tags};
+use crate::error::SoundError;
+use crate::internal::OpenAlData;
+use crate::openal::{al, ffi};
+use crate::reverb_effect::ReverbEffect;
+use crate::sound_data; //::*;//{SoundData};
+use crate::sound_data::SoundData;
+use crate::states::State;
+use crate::states::State::{Initial, Paused, Playing, Stopped};
 
 /**
  * Play Sounds easily.

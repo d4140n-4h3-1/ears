@@ -23,8 +23,8 @@
 
 use std::time::Duration;
 
-use reverb_effect::ReverbEffect;
-use states::State;
+use crate::reverb_effect::ReverbEffect;
+use crate::states::State;
 
 /// The functionnality that an Audio Source should provide.
 pub trait AudioController {

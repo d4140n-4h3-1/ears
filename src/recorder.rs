@@ -25,12 +25,12 @@ use std::sync::mpsc::{channel, Receiver, Sender};
 use std::vec::Vec;
 use std::{mem, thread};
 
-use openal::ffi;
-use record_context;
-use record_context::RecordContext;
-use sndfile::FormatType::{FormatPcm16, FormatWav};
-use sndfile::OpenMode::Write;
-use sndfile::{SndFile, SndInfo};
+use crate::openal::ffi;
+use crate::record_context;
+use crate::record_context::RecordContext;
+use crate::sndfile::FormatType::{FormatPcm16, FormatWav};
+use crate::sndfile::OpenMode::Write;
+use crate::sndfile::{SndFile, SndInfo};
 use std::intrinsics::transmute;
 
 /**

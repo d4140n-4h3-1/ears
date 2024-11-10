@@ -21,8 +21,8 @@
 
 //! Module for manage the listener in the scene.
 
-use internal::OpenAlData;
-use openal::{al, ffi};
+use crate::internal::OpenAlData;
+use crate::openal::{al, ffi};
 
 /**
  * Set the global volume of the scene.

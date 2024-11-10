@@ -25,12 +25,12 @@ use libc::c_void;
 use std::mem;
 use std::vec::Vec;
 
-use audio_tags::{get_sound_tags, AudioTags, Tags};
-use error::SoundError;
-use internal::OpenAlData;
-use openal::{al, ffi};
-use sndfile::OpenMode::Read;
-use sndfile::{SndFile, SndInfo};
+use crate::audio_tags::{get_sound_tags, AudioTags, Tags};
+use crate::error::SoundError;
+use crate::internal::OpenAlData;
+use crate::openal::{al, ffi};
+use crate::sndfile::OpenMode::Read;
+use crate::sndfile::{SndFile, SndInfo};
 
 /**
  * Samples extracted from a file.

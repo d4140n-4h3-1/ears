@@ -7,9 +7,10 @@ keywords = ["audio", "openal", "sndfile", "sound", "music"]
 readme = "README.md"
 build = "build.rs"
 exclude = [ "appveyor.yml", ".travis.yml", "res/*" ]
-repository = "https://github.com/nickbrowne/ears"
+repository = "https://github.com/d4140n-4h3-1/ears"
 documentation = "https://docs.rs/ears/"
 description = "Easy Rust API to play audio using OpenAL"
+edition = "2021"
 
 [lib]
 name = "ears"
@@ -23,5 +24,5 @@ lazy_static = "1"
 pkg-config = "0.3"
 
 [badges]
-appveyor = { repository = "nickbrowne/ears", branch = "master" }
-travis-ci = { repository = "nickbrowne/ears", branch = "master" }
+appveyor = { repository = "d4140n-4h3-1/ears", branch = "master" }
+travis-ci = { repository = "d4140n-4h3-1/ears", branch = "master" }

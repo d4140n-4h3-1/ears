@@ -28,8 +28,8 @@
  * and destroyed in a another task.
  */
 
-use internal::{OpenAlContextError, OpenAlData};
-use record_context::RecordContext;
+use crate::internal::{OpenAlContextError, OpenAlData};
+use crate::record_context::RecordContext;
 
 /**
  * Initialize the internal context

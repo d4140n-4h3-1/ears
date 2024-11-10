@@ -2,6 +2,8 @@
 
 * NOTICE: As far as I can see, Ears has not been updated since April 1st, 2020. I don't plan to add any new features anytime soon, but in the meantime, I will make sure there is no deprecated code. - d4140n-4h3-1
 
+** NEW: Bumped crate to version 1.82.0 
+
 Ears aims to be a convenient and easy to understand Rust interface over OpenAL.
 
 It's designed first and foremost for game development, giving you easy access to
@@ -34,6 +36,12 @@ sudo apt install libopenal-dev libsndfile1-dev
 
 ```
 sudo dnf install openal-soft-devel libsndfile-devel
+```
+
+#### Linux (Arch):
+
+```
+yay -S libsndfile-git 
 ```
 
 #### Mac:

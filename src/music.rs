@@ -32,17 +32,17 @@ use std::thread::sleep;
 use std::time::Duration;
 use std::vec::Vec;
 
-use audio_controller::AudioController;
-use audio_tags::{get_sound_tags, AudioTags, Tags};
-use error::SoundError;
-use internal::OpenAlData;
-use openal::{al, ffi};
-use reverb_effect::ReverbEffect;
-use sndfile::OpenMode::Read;
-use sndfile::SeekMode::SeekSet;
-use sndfile::{SndFile, SndInfo};
-use states::State;
-use states::State::{Initial, Paused, Playing, Stopped};
+use crate::audio_controller::AudioController;
+use crate::audio_tags::{get_sound_tags, AudioTags, Tags};
+use crate::error::SoundError;
+use crate::internal::OpenAlData;
+use crate::openal::{al, ffi};
+use crate::reverb_effect::ReverbEffect;
+use crate::sndfile::OpenMode::Read;
+use crate::sndfile::SeekMode::SeekSet;
+use crate::sndfile::{SndFile, SndInfo};
+use crate::states::State;
+use crate::states::State::{Initial, Paused, Playing, Stopped};
 
 const BUFFER_COUNT: i32 = 2;
 

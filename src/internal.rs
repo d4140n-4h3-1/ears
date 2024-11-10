@@ -27,9 +27,9 @@
 #![macro_use]
 
 use libc;
-use openal::ffi;
-use record_context;
-use record_context::RecordContext;
+use crate::openal::ffi;
+use crate::record_context;
+use crate::record_context::RecordContext;
 use std::cell::RefCell;
 use std::error::Error;
 use std::ffi::CString;
